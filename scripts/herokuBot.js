@@ -1,4 +1,4 @@
-//tell hubot "say hi to (.*). search class array, and hubot says "hi" to person (.*) and says hi
+/*//tell hubot "say hi to (.*). search class array, and hubot says "hi" to person (.*) and says hi
 // team.info https://api.slack.com/methods/team.info Will this get me the team list?
 
 module.exports = function(robot) {
