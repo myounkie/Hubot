@@ -38,7 +38,7 @@ robot.respond(/go message (.*)/i, function(msg) {
 
 //if person inputted is in the array then say hi to inputted person, if not say no to me
   if (classmates.indexOf(personInputted) >= -1  ){
-    robot.send(personInputted, "Hi, this thing worked")
+    return msg.send("Hi, this thing worked");
   }
   else {
     return msg.reply("That person is not in our class");
